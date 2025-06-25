@@ -60,11 +60,17 @@ PRODUCT_PACKAGES += \
     BrightnessSliderCyberpunkOverlay \
     BrightnessSliderFilledOverlay \
     BrightnessSliderGradientRoundedBarOverlay \
+    BrightnessSliderGradiantOverlay \
+    BrightnessSliderLightyOverlay \
+    BrightnessSliderLineOverlay \
+    BrightnessSliderNeumorphOverlay \
+    BrightnessSliderOldSchoolThumbOverlay \
     BrightnessSliderLeafyOutlineOverlay \
     BrightnessSliderMinimalThumbOverlay \
     BrightnessSliderOutlineOverlay \
     BrightnessSliderRoundedClipOverlay \
     BrightnessSliderShadedOverlay \
+    BrightnessSliderThumbSliderOverlay \
     BrightnessSliderThinOverlay \
     BrightnessSliderTranslucentOverlay
 
@@ -75,10 +81,12 @@ PRODUCT_PACKAGES += \
 
 # Font Overalys
 PRODUCT_PACKAGES += \
+    ClockFontAccuratistOverlay \
     FontAclonicaSourceOverlay \
     FontAmanteSourceOverlay \
     FontAntipastoProSourceOverlay \
     FontApiceOverlay \
+    FontAccuratistOverlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontAudimatOverlay \
@@ -150,6 +158,12 @@ PRODUCT_PACKAGES += \
     IconShapeIosOverlay \
     IconShapeRohieMeowOverlay \
     IconShapeLeafyOverlay
+
+# Navbar
+PRODUCT_PACKAGES += \
+    LineageNavigationBarNoHint \
+    NavBarGesturalNarrowSpaceOverlay \
+    NavBarGesturalNoSpaceOverlay
 
 # Navbar styles
 PRODUCT_PACKAGES += \
@@ -350,6 +364,19 @@ ifeq ($(TARGET_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     UdfpsResources
 endif
+
+# QS UI Style
+PRODUCT_PACKAGES += \
+    A11QSUI \
+    QSOutline \
+    QSTwoToneAccent \
+    QSTwoToneAccentTrans \
+    QSShaded \
+    QSCyberPunk \
+    QSNeumorph \
+    QSReflected \
+    QSSurround \
+    QSThin
 
 # Utility Overlays
 PRODUCT_PACKAGES += \
